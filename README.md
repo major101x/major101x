@@ -15,6 +15,12 @@ Full-stack developer building production web and mobile applications with React,
 - Postgres functions for access control  
 - Stack: Next.js, Supabase, TypeScript
 
+**[Diffy](https://github.com/major101x/diffy)** — Real-time Collaborative Code Review Platform
+- GitHub App OAuth with installation tokens 
+- Webhook idempotency + async processing
+- Real-time comment sync across clients using WebSockets
+- Stack: Next.js, NestJS, PostgreSQL, Socket.io, BullMQ, Redis
+
 **Other Production Work:**  
 - **StudyItLive** — Multi-tenancy system and assessment platform for online education  
 - **ProxApply, ReserveSpot, Resume Doggy** — Job applications, bookings, resume builder

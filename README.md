@@ -1,43 +1,65 @@
 # Hi, I'm Olayiwola 👋
 
-Full-stack developer building production web and mobile applications with React, Next.js, TypeScript, and NestJS.
+Full-stack developer specializing in real-time systems and production web applications. I build with Next.js, NestJS, TypeScript, PostgreSQL, and Socket.io.
 
-## What I've Built
+## Featured Projects
 
-**[SportPreds](https://sportpreds.com)** — Real-time sports prediction platform  
-- 289+ users in first month  
-- Custom statistical model (72% backtested accuracy)  
-- Redis caching reducing API calls by 60%  
-- Stack: Next.js, NestJS, MongoDB, Redis
+### [Diffy](https://github.com/major101x/diffy) — Real-time Collaborative Code Review Platform
+**Live:** [diffy-two.vercel.app](https://diffy-two.vercel.app)
 
-**[Waitlist Attribution](https://github.com/major101x/waitlist-attribution)** — Security-first waitlist tool  
-- Database-first architecture with Row Level Security  
-- Postgres functions for access control  
-- Stack: Next.js, Supabase, TypeScript
+Built and deployed in 12 days. Centralizes code review workflow with GitHub integration, real-time collaboration, and async webhook processing.
 
-**[Diffy](https://github.com/major101x/diffy)** — Real-time Collaborative Code Review Platform
-- GitHub App OAuth with installation tokens 
-- Webhook idempotency + async processing
-- Real-time comment sync across clients using WebSockets
-- Stack: Next.js, NestJS, PostgreSQL, Socket.io, BullMQ, Redis
+**Technical highlights:**
+- GitHub App OAuth with installation-scoped access tokens
+- Webhook reliability layer (BullMQ + Redis idempotency)
+- Socket.io room-based isolation for multi-user PR reviews
+- Real-time typing indicators, user presence, threaded comments
+- Live PR diff viewer with syntax highlighting
 
-**Other Production Work:**  
-- **StudyItLive** — Multi-tenancy system and assessment platform for online education  
-- **ProxApply, ReserveSpot, Resume Doggy** — Job applications, bookings, resume builder
+**Stack:** Next.js, NestJS, PostgreSQL (Prisma), Socket.io, BullMQ, Redis
+
+---
+
+### [Waitlist Attribution](https://github.com/major101x/waitlist-attribution) — Security-First SaaS Tool
+**Live:** [waitlist-attribution.vercel.app](https://waitlist-attribution.vercel.app)
+
+Helps founders track signup sources across platforms with database-first security architecture.
+
+**Technical highlights:**
+- Row Level Security enforcing read/write boundaries
+- Postgres functions for access control and rate limiting
+- Anonymous writes, authenticated reads
+
+**Stack:** Next.js, Supabase, TypeScript
+
+---
+
+## Work Experience
+
+**StudyItLive** (Nov 2024 - Present)  
+Building multi-tenancy assessment platform for online education
+- React, TypeScript, NestJS, PostgreSQL
+- Quiz creation, automated grading, role-based access control
+
+**SportPreds** (Mar 2023 - Present)  
+Real-time sports prediction platform
+- Next.js, NestJS, MongoDB, Redis
+
+---
 
 ## Tech Stack
 
 **Frontend:** React, Next.js, TypeScript, Tailwind CSS  
-**Backend:** NestJS, Node.js, MongoDB, PostgreSQL, Redis  
-**Mobile:** React Native, Expo  
-**Tools:** Git, Supabase, Vercel, Docker
+**Backend:** NestJS, Node.js, PostgreSQL, MongoDB, Redis  
+**Real-time:** Socket.io, WebSockets, BullMQ  
+**Tools:** Git, Prisma, Supabase, Vercel, Docker
 
-## Currently
+---
 
-Working on StudyItLive, building assessment systems and multi-tenant architecture.
+## Open to Opportunities
 
-Open to full-stack and frontend roles where I can own features end-to-end.
+Full-stack or backend roles where I can own features end-to-end, solve scaling challenges, and work with real-time systems.
 
 📫 layiaroyeun@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/olayiwola-aroyeun)  
-🌐 [SportPreds](https://sportpreds.com)
+💼 [Portfolio](https://diffy-two.vercel.app)
